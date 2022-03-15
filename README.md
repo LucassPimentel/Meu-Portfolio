@@ -1,7 +1,7 @@
 # Meu-Portfolio
   Meu portfólio contendo algumas informações interessantes, contatos e os projetos que mais me orgulham.
   
-  OBS: Responsivodade ON.
+  OBS: Responsividade ON.
 
 ## Tecnologias utilizadas:
 - HTML
