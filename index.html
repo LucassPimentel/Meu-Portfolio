@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/darkmode.css">
+
+    <title>Meu Portfólio</title>
+    <script src="https://kit.fontawesome.com/9081d4fc37.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGAÇÃO FIXA NO CANTO SUPERIOR DA TELA -->
+    <header class="header">
+        <nav class="navbar">
+            <h1>Lucas Pimentel</h1>
+            <ul class="menu">
+                <li><a href="/">Início</a></li>
+                <li><a href="#about_me">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- SEÇÃO DE APRESENTAÇÃO QUE SERÁ O INICIO -->
+    <section class="apresentationContainer" id="apresentation">
+        <div class="apresentation">
+            <span>
+                < </span>
+                    <h1>Olá,</h1>
+                    <p>meu nome é Lucas.</p>
+                    <span> /> </span>
+        </div>
+        <div class="img">
+            <div>
+    </section>
+    <!-- SEÇÃO SOBRE MIM -->
+    <section class="aboutMe_Container" id="about_me">
+        <div class="Skill">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li> - Resiliência</li>
+                <li> - Proatividade</li>
+                <li> - Foco</li>
+                <li> - Trabalho em equipe</li>
+            </ul>
+        </div>
+        <div class="aboutMe">
+            <h1>Sobre Mim</h1>
+            <span>Sou estudante de análise e desenvolvimento, e apaixonado por tecnologia. Tenho conhecimentos básicos
+                em JavaScript, HTML, CSS, React, além de banco de dados SQL, no
+                entanto, pretendo me aventurar em outras liguagens também, como Python, Java, mas estou 100% aberto para
+                novos desafios. Em mim não falta determinação e consistência.</span>
+        </div>
+        <div class="Skill">
+            <h2>Hard Skills</h2>
+            <ul>
+                <li> - JavaScript Básico</li>
+                <li> - HTML, CSS</li>
+                <li> - ReactJS Básico</li>
+                <li> - Inglês Intermediário</li>
+            </ul>
+        </div>
+    </section>
+    <!-- SEÇÃO PRINCIPAIS PROJETOS -->
+    <section class="projects_Container" id="projects">
+        <h1>Alguns Projetos</h1>
+        <div class="container_Projects">
+            <div class="project_one">
+                <a href="https://github.com/LucassPimentel/Game-Of-Thrones-Chat" target="blank"><span>Projeto de um chat
+                        com tema de Game Of Thrones.</span></a>
+            </div>
+            <div class="project_two">
+                <a href="https://github.com/LucassPimentel/COVID19-API" target="blank"><span>Consumindo uma API para
+                        verificar as informações da COVID-19. </span></a>
+            </div>
+            <div class="project_three">
+                <a href="https://github.com/LucassPimentel/1-CRUD-EM-REACT" target="blank">
+                    <span>CRUD para simular o cadastro e alterações de clientes.</span></a>
+            </div>
+        </div>
+    </section>
+    <!-- SEÇÃO DE CONTATOS -->
+    <section class="contacts_container" id="contacts">
+        <h1>Contatos</h1>
+        <div class="social_Medias_Container">
+            <a href="https://www.linkedin.com/in/lucas-pimentel-0b7492222/" target="blank"><i
+                    class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/LucassPimentel" target="blank"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="https://www.instagram.com/olucaaos/" target="blank"><i
+                    class="fa-brands fa-instagram-square fa-3x"></i></a>
+        </div>
+        <span>Clique e me envie um e-mail:</span>
+        <button onclick="sendEmail()">Enviar e-mail</button>
+    </section>
+    <footer class="footer_Container">
+        <div class="social_Medias">
+            <span>Lucas Pimentel</span>
+            <ul>
+                <a href="https://www.linkedin.com/in/lucas-pimentel-0b7492222/" target="blank"><i
+                        class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/LucassPimentel" target="blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="https://www.instagram.com/olucaaos/" target="blank"><i
+                        class="fa-brands fa-instagram-square fa-2x"></i></a>
+            </ul>
+        </div>
+        <div class="footer_menu">
+            <ul class="list-footer">
+                <li><a href="/">Início</a></li>
+                <li><a href="#about_me">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="copy_right">
+            <h2>Lucas Pimentel © 2022</h2>
+        </div>
+    </footer>
+    <script>
+        btnModes.addEventListener('click', changeBackground)
+        const sendEmail = () => {
+            document.location.href = 'mailto:lpimentel42@hotmail.com'
+        }
+    </script>
+</body>
+
+</html>

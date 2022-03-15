@@ -1,0 +1,44 @@
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.footer_Container.dark-mode {
+  color: white;
+}
+
+.btn-modes {
+  width: 8vw;
+  border-radius: 50px;
+  font-size: 0.8;
+}
+
+a.dark-mode {
+  color: white;
+}
+
+.navbar.dark-mode {
+  color: white;
+}
+
+
+
+
+
+.btn-modes.dark-mode {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-modes {
+    width: 20vw;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .btn-modes {
+    width: 30vw;
+  }
+}
