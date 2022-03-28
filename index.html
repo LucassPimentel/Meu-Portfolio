@@ -94,7 +94,7 @@
                     class="fa-brands fa-instagram-square fa-3x"></i></a>
         </div>
         <span>Clique e me envie um e-mail:</span>
-        <button onclick="sendEmail()">Enviar e-mail</button>
+        <button id="btnEmail" onclick="sendEmail()">Enviar e-mail</button>
     </section>
     <footer class="footer_Container">
         <div class="social_Medias">
@@ -120,9 +120,8 @@
         </div>
     </footer>
     <script>
-        btnModes.addEventListener('click', changeBackground)
         const sendEmail = () => {
-            document.location.href = 'mailto:lpimentel42@hotmail.com'
+            window.location.href = 'mailto:lpimentel42@hotmail.com'
         }
     </script>
 </body>
