@@ -23,7 +23,7 @@ h1 {
 }
 
 .scrollSnap {
-  scroll-snap-align: start;
+      scroll-snap-align: start;
 }
 
 /* ======================================== */
