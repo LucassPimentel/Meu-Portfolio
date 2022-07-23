@@ -7,9 +7,9 @@
   text-decoration: none;
   list-style: none;
 }
-html {
+/* html {
   scroll-snap-type: y mandatory;
-}
+} */
 body {
   background-color: white;
   scroll-snap-type: y mandatory;
